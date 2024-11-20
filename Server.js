@@ -22,7 +22,7 @@ const posts = [
           imagem: "https://placecats.com/millie/300/150"
         },
         {
-          id:7, descricao: "Gato olhando pela janela",
+          id:7, descricao: "Gato olhando pela Porta",
           imagem: "https://placecats.com/millie/300/150"
         }
       ];
