@@ -1,5 +1,7 @@
 import express from "express";
 
+console.log(process.env.STRING_CONEXAO)
+
 const posts = [ 
         {
           id: 1, descricao: "Uma foto teste",
@@ -18,11 +20,11 @@ const posts = [
           imagem: "https://placecats.com/millie/300/150"
         },
         {
-          id:6, descricao: "Gato preto misterioso",
+          id:5, descricao: "Gato preto misterioso",
           imagem: "https://placecats.com/millie/300/150"
         },
         {
-          id:7, descricao: "Gato olhando pela Porta",
+          id:6, descricao: "Gato olhando pela janela",
           imagem: "https://placecats.com/millie/300/150"
         }
       ];
